@@ -2,8 +2,9 @@ comments: |-
   Traducción al español por El_Patas - @https://www.psx-place.com/members/el_patas.30357/
   Traducción al español por azagramac - https://github.com/azagramac
   Para Open PS2 Loader v1.1.0 + betas - Hilo oficial de betas OPL @https://www.psx-place.com/threads/open-ps2-loader-language-pack.20547/
+
 translations:
-  LOCALE: Español
+  LOCALE: Spanish
   SAVE_CHANGES: Guardar cambios
   BACK: Atrás
   NETCONFIG: Conexión de red
@@ -57,7 +58,7 @@ translations:
   DEBUG: Colores para depuración
   NO_CONTROLLER: Mando no encontrado, esperando...
   COVERART: Portadas de los juegos
-  WIDE_SCREEN: Relación de aspecto 16:9
+  WIDE_SCREEN: 'Relación de aspecto 16:9'
   POWEROFF: Apagar PS2
   LOADING_SETTINGS: Cargando configuración...
   SAVING_SETTINGS: Guardando configuración...
@@ -217,7 +218,8 @@ translations:
   PADEMU_PORT: Emulación
   HINT_PADEMU_PORT: Activa/Desactiva la emulación del mando para el puerto seleccionado
   PADEMU_VIB: Vibración
-  HINT_PADEMU_VIB: Activa/Desactiva la vibración para el mando emulado en el puerto
+  HINT_PADEMU_VIB: |-
+    Activa/Desactiva la vibración para el mando emulado en el puerto
     seleccionado
   USBDG_MAC: 'Dirección MAC adaptador bluetooth USB:'
   PAD_MAC: 'Mando sincronizado con dirección MAC:'
@@ -233,16 +235,19 @@ translations:
   SUPFEATURES: 'Funciones soportadas:'
   'YES': Sí
   'NO': 'No'
-  BT_SUPPORTED: El adaptador bluetooth debe ser totalmente compatible con los mandos
+  BT_SUPPORTED: |-
+    El adaptador bluetooth debe ser totalmente compatible con los mandos
     DS3/DS4
-  BT_NOTSUPPORTED: El adaptador bluetooth puede no funcionar correctamente con los
+  BT_NOTSUPPORTED: |-
+    El adaptador bluetooth puede no funcionar correctamente con los
     mandos DS3/DS4
   MTAP_ENABLE: Emulación Multitap
   HINT_MTAP_ENABLE: Activa/Desactiva la emulación Multitap para el juego seleccionado
   MTAP_PORT: 'Emulación Multitap en el puerto:'
   HINT_MTAP_PORT: Selecciona puerto para la emulación Multitap
   PADEMU_WORKAROUND: Solución alternativa para los DS3 falsos
-  HINT_PADEMU_WORKAROUND: Algunos DS3 falsos necesitan una solución alternativa, esta
+  HINT_PADEMU_WORKAROUND: |-
+    Algunos DS3 falsos necesitan una solución alternativa, esta
     opción la activa
   GSM_FIELD_FIX: Emular alternancia de valores de CAMPO
   HINT_GSM_FIELD_FIX: Solución para juegos que fallan bajo resoluciones progresivas
@@ -271,7 +276,8 @@ translations:
   OPTIONS: Opciones
   GAME_SETTINGS_SAVED: Configuración del juego guardada
   GAME_SETTINGS_REMOVED: Ajuste %s borrado
-  NET_UPDATE_HINT: Cuando se activa sobrescribe la configuración de compatibilidad
+  NET_UPDATE_HINT: |-
+    Cuando se activa sobrescribe la configuración de compatibilidad
     del juego
   SETTINGS_SOURCE: Modo de configuración
   GLOBAL_SETTINGS: Global
@@ -286,7 +292,8 @@ translations:
   INFO_DESCRIPTION: Descripción
   BLOCKDEVICE_SETTINGS: Dispositivos de bloque
   CONTROLLER_SETTINGS: Configuración del mando
-  HINT_BDM_START: Activa/Desactiva el Gestor de Dispositivos de Bloque (Block Device
+  HINT_BDM_START: |-
+    Activa/Desactiva el Gestor de Dispositivos de Bloque (Block Device
     Manager)
   HINT_BLOCK_DEVICES: 'Selecciona dispositivos de bloque (Ejemplo: USB, iLink, MX4SIO)'
   USB_GAMES: Juegos USB
