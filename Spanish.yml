@@ -104,8 +104,8 @@ translations:
   ENABLE_WRITE: Habilitar escritura
   LASTPLAYED: Recordar el último juego usado
   SELECTBUTTON: Botón de selección
-  ERR_FRAGMENTED: Error: el juego está fragmentado
-  ERR_FILE_INVALID: Error: no se pudo iniciar el archivo
+  ERR_FRAGMENTED: 'Error: el juego está fragmentado'
+  ERR_FILE_INVALID: 'Error: no se pudo iniciar el archivo'
   TEST: Probar cambios
   HINT_GUEST: Dejar en blanco para autenticar como GUEST
   HINT_MODE1: Lectura precisa
@@ -202,7 +202,7 @@ translations:
   DOWNLOADED_DEFAULTS: Descargada configuración predeterminada
   AUTO_START_IN_N_SECS: Inicio en %i s...
   AUTOSTARTLAST: Inicio automático
-  HINT_AUTOSTARTLAST: Introduce valor en segundos (0 para desactivar el inicio automático)
+  HINT_AUTOSTARTLAST: 'Introduce valor en segundos (0 para desactivar el inicio automático)'
   PS2LOGO: Logotipo Playstation 2
   HINT_PS2LOGO: Sólo se mostrará si el juego es de la misma región que la consola
   PADEMUCONFIG: Configuración DualShock 3/4
@@ -213,7 +213,7 @@ translations:
   HINT_PADEMU_MODE: Selecciona el modo de emulación del mando
   DS34USB_MODE: DualShock 3/4 USB
   DS34BT_MODE: DualShock 3/4 Bluetooth
-  PADPORT: 'Ajustes para el puerto:'
+  PADPORT: 'Ajustes para el puerto: '
   HINT_PAD_PORT: Selecciona el puerto del mando emulado para aplicar los ajustes
   PADEMU_PORT: Emulación
   HINT_PADEMU_PORT: Activa/Desactiva la emulación del mando para el puerto seleccionado
@@ -221,19 +221,19 @@ translations:
   HINT_PADEMU_VIB: |-
     Activa/Desactiva la vibración para el mando emulado en el puerto
     seleccionado
-  USBDG_MAC: 'Dirección MAC adaptador bluetooth USB:'
-  PAD_MAC: 'Mando sincronizado con dirección MAC:'
+  USBDG_MAC: 'Dirección MAC adaptador bluetooth USB: '
+  PAD_MAC: 'Mando sincronizado con dirección MAC: '
   PAIR: Sincronizar
   PAIR_PAD: Sincronización mando DualShock
   HINT_PAIRPAD: Sincroniza el mando DualShock con la dirección MAC del adaptador bluetooth
   NOT_CONNECTED: No conectado
   BTINFO: Información adaptador bluetooth
   HINT_BTINFO: Muestra más información y las funciones soportadas
-  HCIVER: 'Versión HCI:'
-  LMPVER: 'Versión LMP:'
-  MANUFACTURER: 'ID fabricante:'
-  SUPFEATURES: 'Funciones soportadas:'
-  'YES': Sí
+  HCIVER: 'Versión HCI: '
+  LMPVER: 'Versión LMP: '
+  MANUFACTURER: 'ID fabricante: '
+  SUPFEATURES: 'Funciones soportadas: '
+  'YES': 'Sí'
   'NO': 'No'
   BT_SUPPORTED: |-
     El adaptador bluetooth debe ser totalmente compatible con los mandos
@@ -243,7 +243,7 @@ translations:
     mandos DS3/DS4
   MTAP_ENABLE: Emulación Multitap
   HINT_MTAP_ENABLE: Activa/Desactiva la emulación Multitap para el juego seleccionado
-  MTAP_PORT: 'Emulación Multitap en el puerto:'
+  MTAP_PORT: 'Emulación Multitap en el puerto: '
   HINT_MTAP_PORT: Selecciona puerto para la emulación Multitap
   PADEMU_WORKAROUND: Solución alternativa para los DS3 falsos
   HINT_PADEMU_WORKAROUND: |-
@@ -267,7 +267,7 @@ translations:
   SFX_VOLUME: Volumen efectos de sonido
   BOOT_SND_VOLUME: Volumen sonido de inicio
   CFM_VMODE_CHG: ¿Confirmar el cambio de resolución de pantalla?
-  CACHE_HDD_GAME_LIST: Caché lista de juegos (Disco duro)
+  CACHE_HDD_GAME_LIST: 'Caché lista de juegos (Disco duro)'
   ENABLE_NOTIFICATIONS: Notificaciones
   CFG_NOTIFICATION: Configuración cargada desde %s
   THM_NOTIFICATION: Tema cargado desde %s
@@ -302,11 +302,11 @@ translations:
   PADMACROCONFIG: Configuración funciones del mando
   PADMACRO_SETTINGS: Opciones para las funciones del mando
   PADMACRO_ENABLE: Funciones del mando
-  PADMACRO_SLOWDOWN: 'Ralentización del analógico:'
+  PADMACRO_SLOWDOWN: 'Ralentización del analógico: '
   HINT_PADMACRO_SLOWDOWN_AXIS: Reduce el rango del joystick analógico cuando se pulsa el botón
   LEFT_ANALOG: Joystick analógico izquierdo
   RIGHT_ANALOG: Joystick analógico derecho
-  PADMACRO_INVERT_AXIS: 'Invertir eje analógico:'
+  PADMACRO_INVERT_AXIS: 'Invertir eje analógico: '
   HINT_PADMACRO_INVERT_AXIS: Cambia la dirección de la cámara horizontal o vertical
   TURBO_SPEED: Velocidad del botón turbo
   HINT_TURBO_SPEED: Cambia la velocidad de pulsación del botón cuando se usa el turbo
