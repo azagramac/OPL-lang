@@ -1,8 +1,9 @@
 comments: |-
-  Spanish translation by El_Patas - @https://www.psx-place.com/members/el_patas.30357/
-  For Open PS2 Loader v1.1.0 + betas - Official OPL Beta thread @https://www.psx-place.com/threads/open-ps2-loader-language-pack.20547/
+  Traducción al español por El_Patas - @https://www.psx-place.com/members/el_patas.30357/
+  Traducción al español por azagramac - https://github.com/azagramac
+  Para Open PS2 Loader v1.1.0 + betas - Hilo oficial de betas OPL @https://www.psx-place.com/threads/open-ps2-loader-language-pack.20547/
 translations:
-  LOCALE: Spanish
+  LOCALE: Español
   SAVE_CHANGES: Guardar cambios
   BACK: Atrás
   NETCONFIG: Conexión de red
@@ -14,17 +15,17 @@ translations:
   SETTINGS: Configuración principal
   MENU: Menú
   BDM_GAMES: Juegos BDM
-  HDD_GAMES: Juegos Disco duro
-  NET_GAMES: Juegos Red
+  HDD_GAMES: Juegos en disco duro
+  NET_GAMES: Juegos en red
   APPS: Aplicaciones
   THEME: Tema
   LANGUAGE: Idioma
   CONFIRMATION_POFF: Se apagará el sistema
-  CONFIRMATION_EXIT: ¿Salir al navegador de la consola?
+  CONFIRMATION_EXIT: ¿Volver al navegador de la consola?
   CONFIRMATION_CANCEL_UPDATE: ¿Cancelar actualización?
   HDD_NOT_CONNECTED_ERROR: '%d: Disco duro no detectado'
   HDD_NOT_FORMATTED_ERROR: '%d: Disco duro no formateado'
-  NETWORK_STARTUP_ERROR: '%d: Error al iniciar red'
+  NETWORK_STARTUP_ERROR: '%d: Error al iniciar la red'
   NETWORK_STARTUP_ERROR_NETIF: '%d: No se ha detectado adaptador de red'
   NETWORK_STARTUP_ERROR_CONN: '%d: No se puede conectar al servidor SMB'
   NETWORK_STARTUP_ERROR_LOGON: '%d: No se puede iniciar sesión en el servidor SMB'
@@ -43,35 +44,35 @@ translations:
   GAMES_LIST: Lista de juegos
   COMPAT_SETTINGS: Configuración del juego
   REMOVE_ALL_SETTINGS: Borrar configuraciones
-  SCROLLING: Velocidad desplazamiento
+  SCROLLING: Velocidad de desplazamiento
   SLOW: Lento
   MEDIUM: Medio
   FAST: Rápido
   DEFDEVICE: Menú predeterminado
-  LOAD_FROM_DISC: Cargar del disco
-  PLEASE_WAIT: Espera por favor
+  LOAD_FROM_DISC: Cargar desde el disco
+  PLEASE_WAIT: Espere, por favor
   ERROR_LOADING_ID: Error al cargar el código ID del juego
-  AUTOSORT: Listas ordenadas por alfabeto
+  AUTOSORT: Listas ordenadas alfabéticamente
   ERR_LOADING_LANGFILE: Error al cargar el archivo de idioma
   DEBUG: Colores para depuración
   NO_CONTROLLER: Mando no encontrado, esperando...
-  COVERART: Imágenes diseño gráfico
-  WIDE_SCREEN: 'Relación de aspecto 16:9'
+  COVERART: Portadas de los juegos
+  WIDE_SCREEN: Relación de aspecto 16:9
   POWEROFF: Apagar PS2
   LOADING_SETTINGS: Cargando configuración...
   SAVING_SETTINGS: Guardando configuración...
   START_DEVICE: Iniciar dispositivo
   REFRESH: Actualizar
-  BDMMODE: Modo de inicio para BDM
-  HDDMODE: Modo de inicio para Disco duro
-  ETHMODE: Modo de inicio para Red
-  APPMODE: Modo de inicio para Aplicaciones
+  BDMMODE: Modo inicio BDM
+  HDDMODE: Modo inicio Disco duro
+  ETHMODE: Modo inicio Red
+  APPMODE: Modo inicio Aplicaciones
   AUTO: Automático
   MANUAL: Manual
   STARTNBD: Iniciar servidor NBD
   STARTINGNBD: Iniciando servidor NBD...
   RUNNINGNBD: Servidor NBD conectado
-  STARTFAILNBD: Error al iniciar el servidor NBD
+  STARTFAILNBD: Error al iniciar servidor NBD
   UNLOADNBD: Cerrando servidor NBD...
   EXITTO: Ruta del IGR
   BGCOLOR: Color de fondo
@@ -83,11 +84,11 @@ translations:
   IP_ADDRESS: Dirección IP
   ADDRESS: Dirección
   MASK: Máscara de subred
-  GATEWAY: Puerta de enlace predeterminada
+  GATEWAY: Puerta de enlace
   DNS_SERVER: Servidor DNS
   PORT: Puerto
   SHARE: Unidad o carpeta compartida
-  USER: Cuenta de usuario compartida
+  USER: Usuario
   PASSWORD: Contraseña
   NOT_SET: <Sin definir>
   ADDRESS_TYPE: Tipo de dirección
@@ -99,13 +100,13 @@ translations:
   DELETE: Borrar juego
   RUN: Iniciar
   GFX_SETTINGS: Configuración de pantalla
-  ENABLE_WRITE: Operaciones de escritura
-  LASTPLAYED: Recordar último juego en uso
+  ENABLE_WRITE: Habilitar escritura
+  LASTPLAYED: Recordar el último juego usado
   SELECTBUTTON: Botón de selección
-  ERR_FRAGMENTED: Error, el juego está fragmentado
-  ERR_FILE_INVALID: Error, no se pudo iniciar el archivo
-  TEST: Testear cambios
-  HINT_GUEST: Dejar en blanco para autentificar como GUEST
+  ERR_FRAGMENTED: Error: el juego está fragmentado
+  ERR_FILE_INVALID: Error: no se pudo iniciar el archivo
+  TEST: Probar cambios
+  HINT_GUEST: Dejar en blanco para autenticar como GUEST
   HINT_MODE1: Lectura precisa
   HINT_MODE2: Modo sincronizado
   HINT_MODE3: Desvincula el sistema
@@ -116,7 +117,7 @@ translations:
   CREATE: Crear
   START: Iniciar
   MODIFY: Modificar
-  ABORT: Abortar
+  ABORT: Abort
   RESET: Reiniciar
   USE_GENERIC: Usar genérica
   VMC_SCREEN: Configuración VMC
@@ -125,26 +126,25 @@ translations:
   VMC_STATUS: Estado
   VMC_PROGRESS: Progreso
   VMC_FILE_EXISTS: Archivo VMC creado
-  VMC_FILE_ERROR: Archivo VMC inválido, el tamaño es incorrecto
-  VMC_FILE_NEW: El archivo VMC debe ser creado
-  ERR_VMC_CONTINUE: Error accediendo a la VMC %s, ¿continuar con la tarjeta de memoria
-    en ranura %d)?
-  AUTOREFRESH: Refresco automático de las listas
-  ABOUT: Acerca del OPL
+  VMC_FILE_ERROR: Archivo VMC inválido, tamaño incorrecto
+  VMC_FILE_NEW: El archivo VMC debe crearse
+  ERR_VMC_CONTINUE: Error accediendo a la VMC %s, ¿continuar con la tarjeta de memoria en ranura %d?
+  AUTOREFRESH: Actualización automática de las listas
+  ABOUT: Acerca de OPL
   DEVS: Desarrolladores
   QANDA: Testeadores
   BDM_PREFIX: Ruta predeterminada BDM
   HINT_EXITPATH: Dejar en blanco para salida hacia el navegador de PS2
-  HINT_SPINDOWN: Valor en minutos, 0 para desactivar el paro automático
-  HDD_SPINDOWN: Paro automático rotación del disco duro
+  HINT_SPINDOWN: Tiempo en minutos; 0 para desactivar el apagado automático
+  HDD_SPINDOWN: Apagado automático del disco duro
   VMODE: Resolución de pantalla
   UICOLOR: Color de diálogos
   SELCOLOR: Color de selección
-  RESETCOLOR: Reinicio colores
+  RESETCOLOR: Reiniciar colores
   INFO: Info.
   ALTSTARTUP: Archivo ELF personalizado
   COLOR_SELECTION: Seleccionar color
-  RECONNECT: Reconexión
+  RECONNECT: Reconectar
   HINT_SHARENAME: Dejar en blanco para mostrar todas las unidades o carpetas compartidas
   ETH_PREFIX: Ruta predeterminada conexión de red
   BACKSPACE: Retroceso
@@ -169,7 +169,7 @@ translations:
   ETH_10MFDX: 10Mbit full-duplex
   ETH_10MHDX: 10Mbit half-duplex
   GSM_SETTINGS: Opciones GSM
-  ENABLEGSM: Selector GSM
+  ENABLEGSM: Activar GSM
   HINT_ENABLEGSM: Activa/Desactiva el GSM para cambiar resoluciones de pantalla
   HINT_GSMVMODE: Cambia la resolución de pantalla seleccionada
   XOFFSET: Posición horizontal
@@ -177,9 +177,9 @@ translations:
   YOFFSET: Posición vertical
   HINT_YOFFSET: Mueve la posición vertical de la pantalla
   OVERSCAN: Márgenes de pantalla
-  HINT_OVERSCAN: Permite variar el zoom para ajustar los márgenes de la imagen con la pantalla
+  HINT_OVERSCAN: Ajusta los márgenes de la imagen con la pantalla
   GSMSKIPVIDEOS: Omitir vídeos FMV
-  HINT_GSMSKIPVIDEOS: Omite escenas Full Motion Vídeos
+  HINT_GSMSKIPVIDEOS: Omite escenas Full Motion Videos
   CHEAT_SETTINGS: Configuración PS2RD
   ENABLECHEAT: Motor de códigos PS2RD
   HINT_ENABLECHEAT: Activa/Desactiva el PS2RD para usar códigos con el juego
@@ -201,7 +201,7 @@ translations:
   DOWNLOADED_DEFAULTS: Descargada configuración predeterminada
   AUTO_START_IN_N_SECS: Inicio en %i s...
   AUTOSTARTLAST: Inicio automático
-  HINT_AUTOSTARTLAST: Valor en segundos, 0 para desactivar el inicio automático
+  HINT_AUTOSTARTLAST: Introduce valor en segundos (0 para desactivar el inicio automático)
   PS2LOGO: Logotipo Playstation 2
   HINT_PS2LOGO: Sólo se mostrará si el juego es de la misma región que la consola
   PADEMUCONFIG: Configuración DualShock 3/4
